@@ -1,14 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
 body{
   padding: 0;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 div.landing{
   margin-top:-21.5px;
   align-items: left;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.landing h1{
+  font-weight: 900;
 }
 
 div.margem{
